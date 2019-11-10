@@ -121,9 +121,9 @@ $(function () {
     $('#signupform').submit(function() {
 
         // submission stuff
-
+        console.log('submitting signup form');
         $('#exampleModal').modal('hide');
-        return false;
+        // return false;
     });
 
 });
