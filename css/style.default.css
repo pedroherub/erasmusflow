@@ -690,7 +690,7 @@ section.newsletter .form-group .submit {
 * ==========================================================
 */
 footer.main-footer {
-  padding: 150px 0 0;
+  padding: 50px 0 0;
   overflow-x: hidden;
 }
 
@@ -755,7 +755,7 @@ footer.main-footer ul.social-icons a:hover {
 }
 
 footer.main-footer .copyrights {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 footer.main-footer .copyrights .container {
