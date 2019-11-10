@@ -118,6 +118,12 @@ $(function () {
         return false;
     });
 
+    $('#signupform').submit(function() {
 
+        // submission stuff
+
+        $('#exampleModal').modal('hide');
+        return false;
+    });
 
 });
