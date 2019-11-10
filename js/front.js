@@ -119,10 +119,9 @@ $(function () {
     });
 
     $('#signupform').submit(function() {
-
-        // submission stuff
+        e.preventDefault();
         console.log('submitting signup form');
-        $('#exampleModal').modal('hide');
+        $('#exampleModal').modal('toggle');
         // return false;
     });
 
