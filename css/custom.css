@@ -1,1 +1,12 @@
 /* your styles go here */
+.form-check-inline.no_indent,
+.form-check-inline.no_indent+.checkbox-inline.no_indent {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.form-check-inline.no_indent:last-child {
+  margin-right: 0;
+}
+div.form-check.form-check-inline {
+	margin-left: 2rem;
+}

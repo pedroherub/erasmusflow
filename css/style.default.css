@@ -268,18 +268,23 @@ section header {
 
 #signupform label {
   display: block;
-  padding-left: 10px;
+  padding-left: 0px;
   color: #656565;
   font-family: "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
 #signupform input {
-  width: 100%;
+  /*width: 100%;*/
   display: block;
   padding: 10px 20px;
   border-radius: 50px;
   border: 1px solid #eee;
   outline: none;
+}
+
+#signupform input#email {
+  width: 100%;
 }
 
 #signupform input:focus {
