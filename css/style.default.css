@@ -340,7 +340,21 @@ nav.navbar {
 nav.navbar .navbar-brand {
   font-weight: 800;
   font-size: 1.7rem;
-  color: #222;
+  /*color: blue;*/
+}
+
+.logo-gradient {
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #5989e5;
+  background-image: -webkit-gradient(linear, left top, right top, from(#5989e5), to(#37cfdc));
+  background-image: linear-gradient(to right, #5989e5, #37cfdc);
+  border: none !important;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.3s !important;
+  transition: all 0.3s !important;
 }
 
 nav.navbar a.nav-link {
@@ -702,7 +716,7 @@ footer.main-footer a {
 footer.main-footer .brand {
   font-weight: 800;
   font-size: 1.7rem;
-  color: #222;
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -716,6 +730,12 @@ footer.main-footer ul.contact-info a {
 
 footer.main-footer ul.contact-info a:hover {
   color: #5989e5;
+}
+
+ul.contact-info li a {
+    margin:0 auto;
+    width: 100px;
+    display: block;
 }
 
 footer.main-footer h5 {
@@ -877,6 +897,7 @@ STYLE SWITCHER FOR DEMO
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
+  /*color: blue;*/
 }
 
 .navbar-toggler {
