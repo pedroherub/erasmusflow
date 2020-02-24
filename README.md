@@ -1,3 +1,0 @@
-# erasmusflow
-
-Erasmus+ program management
